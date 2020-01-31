@@ -29,23 +29,32 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+The difference between `.forEach` & `.map`is that forEach() allows the mutation of the original array, while map() returns a new array of the same size. map() is also faster. 
 
 2. What is the difference between a function and a method?
+A function is a piece of code that is called by name. It can be passed data to operate on and can return data. All data that is passed to a function is explicitly passed. 
+A method is a piece of code that is called by a name that is associated with an object.
 
 3. What is closure?
+A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
 
 4. Describe the four rules of the 'this' keyword.
+Whenever a function is contained in the global scope, the value of this inside of that function will be the window object.
+Whenever a function is called by a preceding dot, the object before that dot is this.
+Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
+Whenever JavaScript’s call or apply method is used, this is explicitly defined.
 
 5. Why do we need super() in an extended class?
+The super keyword is used to access and call functions on an object's parent.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [/] Create a forked copy of this project.
+- [/] Add TL as collaborator on Github.
+- [/] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [/] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
